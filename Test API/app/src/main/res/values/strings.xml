@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestAPI</string>
+    <string name="helloAfif">Hallo Moto!</string>
+    <string name="button_name">Button</string>
+</resources>

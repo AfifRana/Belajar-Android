@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_move"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_detail_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@android:color/darker_gray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:background="#4D000000"
+                    android:drawableLeft="@drawable/ic_collections_white_18dp"
+                    android:drawablePadding="4dp"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text="@string/dummy_photos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/white" />
+            </FrameLayout>
+            <TextView
+                android:id="@+id/tv_detail_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:text="@string/heroes_name"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="8dp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/tv_detail_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/item_price"
+                android:textSize="15sp"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+            <TextView
+                android:id="@+id/tv_detail_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/from"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:lineSpacingMultiplier="1"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/tv_detail_notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notes"
+                android:textStyle="bold"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="8dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <Button
+                    android:id="@+id/buy_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/holo_green_light"
+                    android:text="@string/buy_item"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

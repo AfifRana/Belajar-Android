@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Example-Crud-Kotlin-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Example-Crud-Kotlin-master.iml" group="Example-Crud-Kotlin-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Example-Crud-Kotlin-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Example-Crud-Kotlin-master-app.iml" group="Example-Crud-Kotlin-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleCrudKotlin.iml" filepath="$PROJECT_DIR$/ExampleCrudKotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

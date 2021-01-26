@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/parent_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        tools:context=".PhoneContactActivity">
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/item_activity_contact_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+    <Button
+            android:id="@+id/btn_add_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onAddField"
+            android:text="Add Field"
+            android:textColor="@android:color/background_dark" />
+<!--    <Button-->
+<!--            android:id="@+id/btn_save"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:onClick="onSave"-->
+<!--            android:text="Save"-->
+<!--            android:textColor="@android:color/background_dark" />-->
+</LinearLayout>

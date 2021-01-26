@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Profil">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/foto"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fakhri Azmi Husaini"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_marginTop="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fakhriazmihusaini@gmail.com"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

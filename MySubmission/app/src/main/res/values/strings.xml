@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Food Area</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="from">Asal</string>
+    <string name="this_is_moveactivity">Ini MoveActivity</string>
+    <string name="dummy_photos">Other Photos..</string>
+    <string name="List">List</string>
+    <string name="About">About</string>
+    <string name="about_title">Owner</string>
+    <string name="Author">Afif Rana M</string>
+    <string name="Author_email">afifrana3@gmail.com</string>
+    <string name="item_price">Rp. 50.000</string>
+    <string name="buy_item">Beli</string>
+    <string name="notes">Catatan</string>
+</resources>

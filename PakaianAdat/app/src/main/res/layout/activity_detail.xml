@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    tools:context=".Detail">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:id="@+id/gbrDetail"
+        tools:src="@android:color/darker_gray"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/namaPakaian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Nama Pakaian"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tvKeterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Keterangan"
+        android:layout_margin="16dp"
+        android:textSize="18sp"/>
+
+</LinearLayout>
